@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    img{
+        height: 50px;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+    }
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#hero{
+    padding: 4em 4em;
+
+    h1{
+        font-size: 2em;
+        padding: 0 0 1.5em 0;
+    }
+}
+
+#pricing{
+    width: 100%;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    .product{
+        border: 1px solid black;
+    }
+}
