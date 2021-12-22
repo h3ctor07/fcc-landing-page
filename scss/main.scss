@@ -2,49 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    position: relative;
     list-style: none;
     text-decoration: none;
     color: #000;
 
 }
 
-
-header{
-    display: flex;
-    justify-content: space-between;
-    img{
-        height: 50px;
-    }
-    ul{
-        display: flex;
-        gap: 10px;
-    }
-    
-}
-
-.container{
+body{
     width: 80%;
     margin: auto;
 }
 
-#hero{
-    padding: 4em 4em;
 
-    h1{
-        font-size: 2em;
-        padding: 0 0 1.5em 0;
+section{
+    border: 1px solid black;
+    
+}
+
+header{
+    position: fixed;
+    width: 80%;
+    height: 10vh;
+    
+    font-size: 1.5em;
+    padding: 0.2em;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        height: 2em;
     }
+
+    ul{
+        display: flex;
+        gap:1em;
+    }
+}
+
+main{
+
+    margin:auto;  
+    top: 10vh;
+}
+
+#hero{
+    font-size: 2em;
 }
 
 #pricing{
-    width: 100%;
-    
-    
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-
-    .product{
-        border: 1px solid black;
-    }
+    display:flex;
 }
+
